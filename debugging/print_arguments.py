@@ -2,4 +2,5 @@
 import sys
 
 for i in range(len(sys.argv)):
-    print(sys.argv[i])
+    if (i != 0):
+        print(sys.argv[i])
